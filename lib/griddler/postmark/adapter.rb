@@ -21,6 +21,7 @@ module Griddler
           subject: params[:Subject],
           text: params[:TextBody],
           html: params[:HtmlBody],
+          headers: params[:Headers],
           attachments: attachment_files,
         }
       end
